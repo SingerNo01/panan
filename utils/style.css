@@ -1,0 +1,73 @@
+/* 主标题样式 */
+h1 {
+    color: #1a472a;
+    border-bottom: 2px solid #2e8b57;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2e8b57;
+    margin-top: 1.5em;
+}
+
+h3 {
+    color: #3cb371;
+}
+
+/* 页面背景 */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+/* 卡片样式 */
+div[data-testid="stVerticalBlock"] > div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* 按钮样式 */
+.stButton > button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1a472a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 图片样式 */
+.stImage {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 标签页样式 */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 24px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #e8f5e9;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #2e8b57;
+    color: white;
+}
